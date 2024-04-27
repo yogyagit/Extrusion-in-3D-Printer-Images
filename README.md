@@ -12,8 +12,8 @@ The competition challenges participants to build a machine learning model that c
 
 ## Train and Test Files
 
-scripts/train.csv - The training data set
-scripts/test.csv - The test data set
+csvs/train.csv - The training data set
+csvs/test.csv - The test data set
 
 ## Dataset Overview
 
@@ -41,10 +41,12 @@ While the `printer_id` and `print_id` can be instrumental in developing a robust
 To aid in understanding the types of issues this project addresses, below are examples of images with and without under-extrusion:
 
 ![Good Print Example](images/good_print.jpg)
+
 *Good Print Example: An image showing a print without under-extrusion.*
 
 ![Under Extrusion Example](images/under_extrusion.jpg)
-*Under Extrusion Example: An image clearly showing signs of under extrusion as described.*
+
+*Under Extrusion Example: An image showing signs of under extrusion as described.*
 
 
 ### Evaluation Metric

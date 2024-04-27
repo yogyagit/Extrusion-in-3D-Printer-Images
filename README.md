@@ -12,8 +12,8 @@ The competition challenges participants to build a machine learning model that c
 
 ## Train and Test Files
 
-csvs/train.csv - The training data set
-csvs/test.csv - The test data set
+- csvs/train.csv - The training data set
+- csvs/test.csv - The test data set
 
 ## Dataset Overview
 

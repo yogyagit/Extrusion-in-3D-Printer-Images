@@ -17,10 +17,11 @@ The competition challenges participants to build a machine learning model that c
 
 ## Dataset Overview
 
-- **Images from 7 Different 3D Printers**: Each printer contributes multiple prints, with each print consisting of a series of snapshots taken every 0.5 seconds.
-- **Binary Classification**: Each image is labeled either as good print or with under-extrusion, making it a binary classification problem with a focus on anomaly detection.
-
 The dataset consists of images collected from various 3D printers, each identified by unique IDs and labeled for the presence of under-extrusion. Below is a detailed description of each field in the dataset:
+
+- **Images from 7 Different 3D Printers**: Each printer contributes multiple prints, with each print consisting of a series of snapshots taken every 0.5 seconds.
+
+- **Binary Classification**: Each image is labeled either as good print or with under-extrusion, making it a binary classification problem with a focus on anomaly detection.
 
 - **img_path**: Path to the snapshot of the 3D print. This is used to load the image for processing.
 
